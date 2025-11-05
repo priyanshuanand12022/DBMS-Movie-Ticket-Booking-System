@@ -144,7 +144,7 @@ class Movie:
                   "Budget (Crores INR):", "Duration (Hrs):", "Rating (Out of 5):"]
         widgets = [self.txtMovie_ID, self.txtMovie_Name, self.txtRelease_Date, self.txtDirector,
                    self.txtCast, self.txtBudget, self.txtDuration, self.txtRating]
-        for i in range(len(labels)):DBMS-Movie-Ticket-Booking-System
+        for i in range(len(labels)):
             Label(DFrameL, font=('Arial', 18, 'bold'), text=labels[i], bg="black", fg="orange").grid(row=i, column=0, sticky=W)
             widgets[i].grid(row=i, column=1)
 
